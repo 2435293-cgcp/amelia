@@ -1,1 +1,12 @@
 /.claude
+# Ignore Python virtual environments
+.venv/
+# Bytecode and caches
+__pycache__/
+*.pyc
+# Environment files and editor configs
+.env
+.vscode/
+# Testing and type-checker caches
+.pytest_cache/
+.mypy_cache/
